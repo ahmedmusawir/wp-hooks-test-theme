@@ -564,9 +564,9 @@ p {
   margin-top: 0; }
 
 a {
-  color: #1eaedb; }
+  color: yellow; }
   a:hover {
-    color: #1b9cc5; }
+    color: #e6e600; }
 
 .button,
 button {
@@ -643,24 +643,24 @@ input[type="submit"].button-primary, input[type="reset"].button-primary, input[t
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: yellow;
+  border-color: yellow; }
 
 input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: yellow;
+  border-color: yellow; }
 
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: yellow;
+  border-color: yellow; }
 
 input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: yellow;
+  border-color: yellow; }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
   height: 38px;
   padding: 6px 10px;
@@ -820,6 +820,45 @@ hr {
 
 body {
   color: red;
-  background-color: yellow; }
+  background-color: #cccc00; }
+
+a {
+  text-decoration: none; }
+
+.entry {
+  padding-bottom: 2em; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 300; }
+
+small {
+  padding-bottom: 1.5em;
+  display: block;
+  color: grey; }
+
+.hero-unit {
+  background-color: #333; }
+
+.main-content {
+  margin-top: 5em; }
+
+.my-header-hook a {
+  margin-top: 2em;
+  margin-right: 3em; }
+
+.my-footer-hook {
+  background-color: #333;
+  height: 5em;
+  padding-top: 2em; }
+  .my-footer-hook h5 {
+    padding-right: 1em; }
+
+.button.button-primary:hover,
+button.button-primary:hover {
+  color: #fff;
+  background-color: #cccc00;
+  border-color: #cccc00; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,65 @@
 // My Doings -- Custom CSS
 body {
 	color: red;
-	background-color: yellow;
+	background-color: darken(yellow, 10%);
+	// background-color: darken(white, 10%);
 }
+
+a {
+	text-decoration: none;
+}
+
+.entry {
+	padding-bottom: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 300;
+}
+
+small {
+	// margin-bottom: 2em;
+	padding-bottom: 1.5em;
+	// border: 1px solid blue;
+	display: block;
+	color: grey;
+}
+
+.hero-unit {
+	background-color: $dark-grey;
+	// border: 1px solid black;
+}
+
+.main-content {
+	margin-top: 5em;
+	// border: 1px solid black;
+}
+
+.my-header-hook {
+	a {
+		margin-top: 2em;
+		margin-right: 3em;	
+		
+	}
+
+}
+
+.my-footer-hook {
+	background-color: $dark-grey;
+	height: 5em;
+	padding-top: 2em;
+
+	h5 {
+		padding-right: 1em;
+	}
+
+}
+	
+.button.button-primary:hover,
+button.button-primary:hover {
+  color: #fff;
+  background-color: darken( $link-color, 10%);
+  border-color: darken( $link-color, 10%);
+}	

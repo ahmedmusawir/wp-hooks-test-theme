@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title><?php bloginfo( 'title' ); ?></title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -28,4 +28,19 @@
   <?php wp_head(); ?>
 
 </head>
-<body>
+<body <?php body_class(); ?>>
+<header class= hero-unit >
+
+  <div class="container">
+
+    <div class="row">
+      
+      <div class="one-half column" style="margin-top: 5%">
+        <h1>Basic Page</h1>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+      <!-- <button class="button-primary">Read More</button> -->
+
+    </div>
+  </div>
+</header>
