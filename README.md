@@ -1,2 +1,3 @@
-# wp-hooks-test-theme
-This Theme is to test WP Hooks and Filters
+# Skeleton Press
+## wp-hooks-test-theme
+This Theme is to test WP Hooks and Filters, well atleast started out that way. Then alpha framework was added on slowly ...
