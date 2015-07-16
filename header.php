@@ -36,7 +36,7 @@
     <div class="row">
       
       <div class="one-half column" style="margin-top: 5%">
-        <h1>Basic Page</h1>
+        <a href="<?php bloginfo( 'url' ); ?>"><h1>Skeleton Press Inc.</h1></a>
         <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
       </div>
       <!-- <button class="button-primary">Read More</button> -->
