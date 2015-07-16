@@ -931,15 +931,20 @@ small {
   display: block;
   color: grey; }
 
+.meta-date {
+  color: #ff4d4d; }
+
 .hero-unit {
   background-color: #333; }
 
 .main-content {
   margin-top: 5em; }
 
-.my-header-hook a {
-  margin-top: 2em;
-  margin-right: 3em; }
+.my-header-hook {
+  margin-top: 3.6em; }
+  .my-header-hook a {
+    margin-top: 2em;
+    margin-right: 3em; }
 
 .my-footer-hook {
   background-color: #333;
@@ -982,5 +987,19 @@ figure.opacity-hover {
 
 .widget li {
   list-style: none; }
+
+ul.site-menu {
+  list-style-type: none;
+  box-shadow: 5px -5px 5px grey; }
+  ul.site-menu li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-top: 1rem; }
+    ul.site-menu li a {
+      color: #cccc00; }
+      ul.site-menu li a:hover {
+        color: yellow; }
+    ul.site-menu li.current_page_item a {
+      color: red; }
 
 /*# sourceMappingURL=style.css.map */

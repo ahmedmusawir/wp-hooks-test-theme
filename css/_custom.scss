@@ -105,8 +105,10 @@ a img.aligncenter {
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
 }
-
+// ===============================
 // My Doings -- Custom CSS
+// ===============================
+
 body {
 	color: red;
 	background-color: darken(yellow, 10%);
@@ -135,6 +137,10 @@ small {
 	color: grey;
 }
 
+.meta-date {
+	color: lighten(red, 15%);
+}
+
 .hero-unit {
 	background-color: $dark-grey;
 	// border: 1px solid black;
@@ -146,6 +152,9 @@ small {
 }
 
 .my-header-hook {
+
+	margin-top: 3.6em;
+
 	a {
 		margin-top: 2em;
 		margin-right: 3em;	
@@ -220,6 +229,40 @@ figure.opacity-hover {
 	}
 }
 
+ul.site-menu {
+	
+		// border: 2px solid red;
+		list-style-type: none;
+		box-shadow: 5px -5px 5px grey;
+
+		li {
+			display: inline-block;
+			padding-left: 1rem;
+			padding-top: 1rem;
+
+			a {
+				color: darken( $link-color, 10% );
+
+				&:hover {
+					color: yellow;
+
+				}
+
+
+			}
+			&.current_page_item {
+				// border: 1px solid red;
+				a {
+					color: red;
+
+				}
+			}
+
+			
+		}
+
+
+}
 
 
 

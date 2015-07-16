@@ -11,7 +11,8 @@
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,10 +38,19 @@
       
       <div class="one-half column" style="margin-top: 5%">
         <a href="<?php bloginfo( 'url' ); ?>"><h1>Skeleton Press Inc.</h1></a>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+        <p>It is wrong to think that love comes from long companionship and persevering courtship. Love is the offspring of spiritual affinity and unless that affinity is created in a moment, it will not be created for years or even generations. <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
       </div>
       <!-- <button class="button-primary">Read More</button> -->
-
     </div>
+
   </div>
+    <section class="row">
+      <div class="twelve columns">
+     
+          <nav class="site-navigation container" role="navigation">
+             <?php //wp_nav_menu(); ?>
+          </nav>
+         
+      </div>
+    </section>
 </header>
